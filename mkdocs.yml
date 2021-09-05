@@ -1,0 +1,52 @@
+site_name: DDR Documentation
+site_description: >-
+  Documentation for the German Democratic Republic
+
+repo_name: DDRShield/docs
+repo_url: https://github.com/DDRShield/docs
+
+edit_uri: https://github.com/DDRShield/docs/edit/master/docs
+
+theme:
+  name: material
+  logo: assets/monogram.svg
+  favicon: assets/monogram.png
+
+  palette:
+    scheme: slate
+    primary: grey
+    accent: red
+
+  icon:
+    repo: fontawesome/brands/github
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Property of [GDR] - German Democratic Republic
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/WYWPZwHDNW
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+  - git-revision-date
+  - minify:
+      minify_html: true
