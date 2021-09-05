@@ -9,8 +9,8 @@ edit_uri: https://github.com/DDRShield/docs/edit/master/docs
 
 theme:
   name: material
-  logo: assets/monogram.svg
-  favicon: assets/monogram.png
+  logo: assets/arms.svg
+  favicon: assets/arms.png
 
   palette:
     scheme: slate
