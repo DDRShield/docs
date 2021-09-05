@@ -18,7 +18,7 @@ Black Mesa is an Aperture/<abbr title="Rowboat fork">\*boat</abbr> alternative f
 love configuration :material-cog-outline: without compromising performance
 :material-airplane-takeoff:.
 
-## Who's behind it?
+## Who's behind it? womp womp
 
 Black Mesa was developed out of necessity by <abbr title="Tyler#0911">Tyler</abbr> and
 <abbr title="LewisTehMinerz#1337">Lewis</abbr> from the
